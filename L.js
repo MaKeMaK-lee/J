@@ -22,7 +22,7 @@ function dorandom() {
     console.log(n + min + max);
 
     if (isNaN(n) || isNaN(min) || isNaN(max)) {
-        fckU("Енто должны быть числа!!1\nЖелательно целые.");
+        fckU("Енто должны быть числа!!1\nЦелые.");
         return;
     }
     if (n < 1) {
